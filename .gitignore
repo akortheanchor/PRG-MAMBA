@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environments
+.venv/
+env/
+venv/
+.conda/
+
+# Data (too large for git — see docs/DATASETS.md)
+data/
+*.h5
+*.hdf5
+*.mat
+*.avi
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# Results & checkpoints
+results/checkpoints/*.pth
+results/ablations/
+results/eval_*.json
+
+# Logs
+runs/
+logs/
+*.log
+tensorboard/
+
+# Pretrained weights
+pretrained/*.pth
+pretrained/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+tmp/
+temp/
+*.tmp
